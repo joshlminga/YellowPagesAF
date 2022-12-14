@@ -15,9 +15,12 @@ wp-content/plugins/hello.php
 wp-content/themes/twenty*/
 
 # Monitor
+!wp-content/themes/listingpro
+!wp-content/themes/listingpro-up
 !wp-content/themes/listingpro-new
 !wp-content/themes/listingpro-child
-!wp-content/themes/listingpro-up
+
+
 
 # ignore node dependency directories
 node_modules/
