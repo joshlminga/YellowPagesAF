@@ -148,50 +148,6 @@
 	$listing_stylee = $listingpro_options['listing_style'];
 	$featureImg = '';
 
-	if (has_post_thumbnail()) {
-
-		$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'listingpro-blog-grid');
-
-		if (!empty($image[0])) {
-			$featureImg = $image[0];
-		} elseif (!empty($deafaultFeatImg)) {
-
-			$featureImg = $deafaultFeatImg;
-		} else {
-			$featureImg = 'https://via.placeholder.com/372x240';
-		}
-
-		//$featureImg = $image[0];
-	} else if ($listingpro_options['lp_def_featured_image_from_gallery'] == 'enable') {
-
-		//  echo "yes";
-		$IDs = get_post_meta(get_the_ID(), 'gallery_image_ids', true);
-
-		$IDs = explode(',', $IDs);
-
-		if (is_array($IDs)) {
-			shuffle($IDs);
-
-			$img_url = wp_get_attachment_image_src($IDs[0], 'listingpro-blog-grid');
-
-			$imgurl = $img_url[0];
-			if (!empty($imgurl)) {
-				$featureImg = $imgurl;
-			} elseif (!empty($deafaultFeatImg)) {
-
-				$featureImg = $deafaultFeatImg;
-			} else {
-				$featureImg = 'https://via.placeholder.com/372x240';
-			}
-		}
-	} elseif (!empty($deafaultFeatImg)) {
-
-		$featureImg = $deafaultFeatImg;
-	} else {
-
-		$featureImg = 'https://via.placeholder.com/372x240';
-	}
-
 
 
 	?>
@@ -202,42 +158,16 @@
 				</div>
 			<?php } ?>
 			<div class="lp-grid-box">
-				<div class="lp-grid-box-thumb-container">
-					<div class="lp-grid-box-thumb">
-						<div class="show-img">
-							<?php
-
-							echo '<img src="' . $featureImg . '" alt="image">';
-
-							?>
-						</div>
-						<div class="hide-img listingpro-list-thumb">
-							<?php
-							if (has_post_thumbnail()) {
-								$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'listingpro-blog-grid');
-								if (!empty($image[0])) {
-									echo "<img alt='image' src='" . $image[0] . "' />";
-								} elseif (!empty($deafaultFeatImg)) {
-									echo "<img alt='image' src='" . $deafaultFeatImg . "' />";
-								} else {
-									echo '<img src="' . esc_html__('https://via.placeholder.com/372x240', 'listingpro') . '" alt="image">';
-								}
-							} elseif (!empty($deafaultFeatImg)) {
-								echo "<img alt='image' src='" . $deafaultFeatImg . "' />";
-							} else {
-								echo '<img src="' . esc_html__('https://via.placeholder.com/372x240', 'listingpro') . '" alt="image">';
-							}
-							?>
-						</div>
-					</div>
-				</div>
 				<div class="lp-grid-desc-container lp-border clearfix">
 					<div class="lp-grid-box-description " style="min-height: 90px;">
 						<div class="lp-grid-box-left pull-left">
 							<h4 class="lp-h4">
 								<?php echo wp_kses_post($CHeckAd); ?>
 								<?php echo mb_substr(get_the_title(), 0, 30) ?>
-								<?php echo wp_kses_post($claim); ?>
+								<?php echo wp_kses_post($claim); 
+                                $metabox = get_post_meta(get_the_ID(), 'lp_' . strtolower(THEMENAME) . '_options', true);
+                                $phone = isset($metabox['phone']) ? $metabox['phone'] : "";
+                                $website = isset($metabox['website']) ? $metabox['website'] : "";?>
 							</h4>
 							<ul>
 								<li>
@@ -293,6 +223,22 @@
 									?>
 								</div>
 								<?php if (!empty($gAddress)) { ?>
+									<div class="hide">
+										<span class="cat-icon">
+											<?php echo listingpro_icons('mapMarkerGrey'); ?>
+										</span>
+										<span class="text gaddress"><?php echo mb_substr($gAddress, 0, 30); ?>...</span>
+									</div>
+								<?php } ?>
+								<?php if (!empty($website)) { ?>
+									<div class="hide">
+										<span class="cat-icon">
+											<?php echo listingpro_icons('mapMarkerGrey'); ?>
+										</span>
+										<span class="text gaddress"><?php echo mb_substr($website, 0, 30); ?>...</span>
+									</div>
+								<?php } ?>
+								<?php if (!empty($phone)) { ?>
 									<div class="hide">
 										<span class="cat-icon">
 											<?php echo listingpro_icons('mapMarkerGrey'); ?>

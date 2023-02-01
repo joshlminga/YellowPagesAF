@@ -11,30 +11,39 @@ $plan_id = 0;
 if ( $post = get_page_by_path( 'free', OBJECT, 'price_plan' ) ){
     $plan_id = $post->ID;
 }
-					$type = 'listing';
-					global $paged;
-					$args=array(
-						'post_type' => $type,
-						'post_status' => 'publish',
-						'paged'       => $paged,
-        				'meta_query' => array(
-                            'relation' => 'AND',
-                            // 'relation' => 'OR',
-                            array(
-                                'key' => 'lp_' . strtolower(THEMENAME) . '_options',
-                                'value' => '"Plan_id"',
-                                'compare' => 'LIKE',
-                            ),
-                            array(
-                                'key' => 'lp_' . strtolower(THEMENAME) . '_options',
-                                'value' => '"'.$plan_id.'"',
-                                'compare' => 'LIKE',
-                            ),
-                        )
-					);
-					
-					$my_query = null;
-					$my_query = new WP_Query($args);
+	$type = 'listing';
+	global $paged;
+	// $args=array(
+	// 	'post_type' => $type,
+	// 	'post_status' => 'publish',
+	// 	'paged'       => $paged,
+	// 	'meta_query' => array(
+	//         'relation' => 'AND',
+	//         // 'relation' => 'OR',
+	//         array(
+	//             'key' => 'lp_' . strtolower(THEMENAME) . '_options',
+	//             'value' => '"Plan_id"',
+	//             'compare' => 'LIKE',
+	//         ),
+	//         array(
+	//             'key' => 'lp_' . strtolower(THEMENAME) . '_options',
+	//             'value' => '"'.$plan_id.'"',
+	//             'compare' => 'LIKE',
+	//         ),
+	//     )
+	// );
+	$args = array(
+		'post_type' => $type,
+		'post_status' => 'publish',
+        'posts_per_page' => -1,
+		'paged'       => $paged,
+        'meta_key' => 'plan_id',
+        'meta_value' => array($plan_id,0),
+        'meta_compare' => 'IN',
+        'fields' => 'ids',
+    );	
+	$my_query = null;
+	$my_query = new WP_Query($args);
 get_header(); 
 ?>
 	<section>

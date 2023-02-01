@@ -36,12 +36,13 @@
 
         }
 
+        .home .lp-topbar-menu li a,
+
         .home .lp-top-bar-social ul li a{
 
-        color: #FFFFFF;
+        color: #020202;
 
         }
-        
         .lp-topbar .lp-topbar-menu li a,
         .lp-topbar .lp-top-bar-social ul li a{
             color: #FFFFFF;
@@ -51,24 +52,24 @@
         .lp-header-middle,
         .lp-menu-bar.lp-header-full-width-st,
         .header-bg-color-class{
-            background-color: #42A7DF        }
+            background-color: #EEEE22        }
 
         .home .lp-header-middle,
         .home .header-bg-color-class{
 
-        background-color: transparent
+        background-color: #EEEE22
         }
 
 
         .lp-header-search-wrap{
 
         
-        background-image: url(https://classic.listingprowp.com/wp-content/uploads/2017/01/home-banner.jpg);
+        background-image: url(https://www.africanyellowpagesusa.com/wp-content/uploads/2022/12/58589cbb-8e13-4c13-959f-8d9d051755ae.jpg);
 
             }
         .lp-header-search-wrap-banner-height{
         
-        height: 610px;
+        height: 500px;
 
             }
         .lp-header-search-wrap-set-top{
@@ -77,7 +78,7 @@
 
         .header-container-height{
 
-        height: 610px;
+        height: 500px;
 
         }
         .lp-category-abs2 .lp-category-abs2-inner span,
@@ -112,7 +113,7 @@
         .event-grid-date span,
         .event-grid-ticket{
 
-        background-color: #41A6DF
+        background-color: #1BCA8F
         }
 
         .lp-section-heading i, .lp-section-title-container i,
@@ -208,7 +209,7 @@
         .lp-event-detail-title-hosted h2 a,.lp-event-detail-side-section ul li > a,
         .lp-event-attende-view-all span
         {
-        color: #41A6DF !important;
+        color: #1BCA8F !important;
         }
         .widget-social-icons li a.phone-link{
         color: #797979 !important;
@@ -223,7 +224,7 @@
         .grid-style3 .lp-blog-grid-link:hover,
         .lp-event-attende-view-all span{
 
-        border-color: #41A6DF !important;
+        border-color: #1BCA8F !important;
 
         }
 
@@ -265,9 +266,9 @@
 
         color: #fff !important;
 
-        border-color: #41A6DF !important;
+        border-color: #1BCA8F !important;
 
-        background-color: #41A6DF !important;
+        background-color: #1BCA8F !important;
 
         }
 
@@ -280,7 +281,7 @@
         .lp-header-search .lp-header-search-tagline,
         .left-heading .lp-sub-title,
         .sidebar-banner-des,.lp-header-search-tagline-sidebar-banner span{
-        font-family: Quicksand;
+        font-family: Comfortaa;
         }
 
         .lp-join-now li a{
@@ -293,7 +294,7 @@
 
         lp-header-middle .lp-header-user-nav .header-login-btn:hover{
 
-        color: #41A6DF !important;
+        color: #1BCA8F !important;
 
         border-color: #fff;
 
@@ -306,13 +307,13 @@
 
         .close-right-icon{
 
-        color: #41A6DF !important;
+        color: #1BCA8F !important;
 
         }
 
         .lp-ann-btn, .lp-ann-btn:hover{
 
-        color: #41A6DF;
+        color: #1BCA8F;
 
         }
 
@@ -328,9 +329,9 @@
 
         .lp-banner-bottom-right a:hover{
 
-        background-color: #41A6DF !important;
+        background-color: #1BCA8F !important;
 
-        border-color: #41A6DF !important;
+        border-color: #1BCA8F !important;
 
         color: #fff !important;
 
@@ -350,7 +351,7 @@
 
         .popup-header strong, .lp-listing-announcements .lp-listing-announcement .close-ann{
 
-        background-color: #41A6DF
+        background-color: #1BCA8F
         }
 
         .lp-listing-additional-details .toggle-additional-details,
@@ -360,49 +361,49 @@
         .lp-author-nav ul li a.active:before,
         .lp-events-btns-outer button:first-child{
 
-        background-color: #41A6DF;
+        background-color: #1BCA8F;
 
         color: #fff !important;
 
-        border-color: #41A6DF
+        border-color: #1BCA8F
         }
 
         .app-view-reviews-all{
 
-        color: #41A6DF;
+        color: #1BCA8F;
 
-        border-color: #41A6DF;
+        border-color: #1BCA8F;
 
         }
 
         .icon-bar{
 
-        background-color: #FFFFFF;
+        background-color: #020202;
 
         }
         .contact-right a span{
         color: #7f7f7f;
         }
         .contact-right a span:hover{
-        color: #41A6DF;
+        color: #1BCA8F;
         }
         .lp-grid-box-bottom-grid6 a:hover,.lp-filter-top-section li a,.sidebar-filters .currency-signs>ul>li>a{
-        color: #41A6DF;
+        color: #1BCA8F;
         }
         .lp-grid6-cate a:hover,.lp-listing-cats a:hover,.lp-grid-box-bottom-grid6 .pull-right:hover .fa,.lp-grid-box-bottom-grid6 .pull-right a:hover{
-        color: #41A6DF !important;
+        color: #1BCA8F !important;
 
         }
         .sidebar-filters .currency-signs>ul>li>a:hover{
-        border-color: #41A6DF;
+        border-color: #1BCA8F;
 
         }
         .search-filters > ul > li > a.active, div#lp-find-near-me ul li a.active{
-        border-color: #41A6DF !important;
+        border-color: #1BCA8F !important;
 
         }
         .search-filters > ul > li > a.active{
-        background-color: #41A6DF !important;
+        background-color: #1BCA8F !important;
 
         }
                 .single .lp-listing-top-title-header .lp-header-overlay {
@@ -438,7 +439,7 @@
         .home-categories-area .lp-home-categoires.new-banner-category-view4 li a,
         .lp-home-categoires li a
         {
-        background: #41A6DF !important;
+        background: #1E73BE !important;
         }
         #cat-img-bg i {
             line-height: 80px;
@@ -453,7 +454,7 @@
         background: #363F48 !important;
         }
         .home-categories-area .lp-home-categoires.category-view-bg-transparent li a{
-        background: rgba(65,166,223,0.4) !important;
+        background: rgba(30,115,190,0.4) !important;
         }
         .home-categories-area .lp-home-categoires.category-view-bg-transparent li a:hover{
         background: rgba(54,63,72,0.4) !important;
@@ -471,82 +472,82 @@
         .lp-add-listing-btn ul li a,
         .lp-header-bg-black .navbar-toggle,
         .lp-header-full-width .lp-add-listing-btn li a, .lp-header-middle .lp-header-add-btn a{
-        color: #FFFFFF;
+        color: #020202;
         }
         .lp-header-full-width .lp-add-listing-btn li a,
         .lp-header-bg-black .navbar-toggle, .lp-header-middle .lp-header-add-btn a,
         .header-container.lp-header-bg .lp-menu-container .lp-menu>div>ul>li>a{
-        border-color: #FFFFFF;
+        border-color: #020202;
         }
         .lp-header-full-width .lp-add-listing-btn ul li a.header-list-icon, .lp-header-full-width .lp-add-listing-btn ul li a.header-list-icon-st6{
-        border: 1px solid #FFFFFF;
+        border: 1px solid #020202;
         }
         .lp-header-with-bigmenu .lp-join-now a,.lp-header-with-bigmenu .lp-add-listing-btn ul li a{
-        color: #FFFFFF ;
+        color: #020202 ;
         }
         .lp-header-with-bigmenu .lp-join-now a:hover,.lp-header-with-bigmenu .lp-add-listing-btn ul li a,.lp-header-with-bigmenu .nav .open > a,.lp-header-with-bigmenu .nav .open > a:hover,.lp-header-with-bigmenu .nav .open > a:focus,.lp-header-with-bigmenu .nav > li > a:hover,.lp-header-with-bigmenu .nav > li > a:focus,.lp-mega-menu-outer #menu-main li a:hover,.about-box-icon-style2 i,.lp-total-meta ul li a:hover,
         .lp-total-meta ul li a:hover span,.lp-total-meta ul .active a,.lp-total-meta ul .active a span,.theme-color,
         .lp-qoute-butn a,.lp-mega-menu-outer .lp-menu ul li:hover a,.theme-color span,
         .stickynavbar #nav_bar ul li a:hover{
-        color: #41A6DF ;
+        color: #1BCA8F ;
         }
         .theme-color,.listing-category-slider4 .slick-prev:hover:before,.listing-category-slider4 .slick-next:hover:before{
-        color: #41A6DF !important;
+        color: #1BCA8F !important;
         }
         .lp-category-icon-outer,.lp-right-content-box .lp-social-box ul li a i:hover,.lp-detail-services-box ul li a:hover,.lp-detail-offers-content a,.lp-offer-count,.lp-quote-submit-btn,.lp-left-filter .search-filters .sortbyrated-outer ul li a:hover,.lp-qoute-butn a:first-child,.lp-new-social-widget li i,.lp_payment_step_next.active{
-        background-color:#41A6DF ;
+        background-color:#1BCA8F ;
         }
         .listing-second-view .widget-box.business-contact.lp-lead-form-st input.lp-review-btn,
         .listing-style-3 a.open-map-view:hover,.listing-app-view .listing-app-view2 .lp-listing-announcement .announcement-wrap.last .announcement-btn{
-        color: #41A6DF;
-        border: 1px solid #41A6DF;
+        color: #1BCA8F;
+        border: 1px solid #1BCA8F;
         }
         .widget-box.business-contact.lp-lead-form-st .contact-form.quickform form.form-horizontal .form-group.pos-relative i.lp-search-icon,
         .listing-app-view .listing-app-view2 .single_listing .review-form .form-submit .lp-review-btn, .lp-dashboard-event-tick-btn .fa{
-        color: #41A6DF;
+        color: #1BCA8F;
         }
         .widget-box.business-contact.lp-lead-form-st .contact-form.quickform form.form-horizontal .form-group.pos-relative:hover input.lp-review-btn,#see_filter:hover {
-        background: #41A6DF;
+        background: #1BCA8F;
         }
         .lp-search-bar-header .lp-header-search-button .lp-search-bar-right .icons8-search.lp-search-icon:hover,
         .listing-app-view2 .toggle-all-days:hover,.lp-menu-app-view-outer .lp-menu-type-heading,
         .listing-app-view .listing-app-view2 .lp-listing-announcement .announcement-wrap.last .announcement-btn:hover,
         .listing-app-view .listing-app-view2 .single_listing .review-form .form-submit .lp-review-btn:hover{
-        background: #41A6DF;
+        background: #1BCA8F;
         color: #fff;
         }
         .lp-qoute-butn a,.listing-app-view2 .toggle-all-days:hover,
         .listing-app-view .listing-app-view2 .single_listing .review-form .form-submit .lp-review-btn:hover,.listing-app-view .listing-app-view2 .single_listing .review-form .form-submit .lp-review-btn{
-        border-color:#41A6DF ;
+        border-color:#1BCA8F ;
         }
         .lp-detail-services-box ul li a:hover,.lp-left-filter .search-filters > ul > li > a:hover,.list_view .lp-grid3-category-outer span.cat-icon{
-        background-color:#41A6DF !important;
+        background-color:#1BCA8F !important;
         }
         .lp-header-with-bigmenu .lp-join-now a,.lp-header-with-bigmenu .lp-add-listing-btn ul li a{
-        color: #FFFFFF ;
+        color: #020202 ;
         }
         .lp-header-with-bigmenu .lp-join-now a:hover,.lp-header-with-bigmenu .lp-add-listing-btn ul li a,.lp-header-with-bigmenu .nav .open > a,.lp-header-with-bigmenu .nav .open > a:hover,.lp-header-with-bigmenu .nav .open > a:focus,.lp-header-with-bigmenu .nav > li > a:hover,.lp-header-with-bigmenu .nav > li > a:focus,.lp-mega-menu-outer #menu-main li a:hover,.about-box-icon-style2 i,.lp-total-meta ul li a:hover,
         .lp-total-meta ul li a:hover span,.lp-total-meta ul .active a,.lp-total-meta ul .active a span,.theme-color,
         .lp-qoute-butn a,.lp-mega-menu-outer .lp-menu ul li:hover a,.theme-color span,
         .stickynavbar #nav_bar ul li a:hover{
-        color: #41A6DF ;
+        color: #1BCA8F ;
         }
         .theme-color,.listing-category-slider4 .slick-prev:hover:before,.listing-category-slider4 .slick-next:hover:before,
         .listing-app-view .listing-app-view2 .lp-listing-announcement .announcement-wrap.last .announcement-btn
         ,.lp-popular-menu-outer h6,.lp-popular-menu-outer h6 .fa
         {
-        color: #41A6DF !important;
+        color: #1BCA8F !important;
         }
         .lp-category-icon-outer,.lp-right-content-box .lp-social-box ul li a i:hover,.lp-detail-services-box ul li a:hover,.lp-detail-offers-content a,.lp-offer-count,.lp-quote-submit-btn,.lp-left-filter .search-filters .sortbyrated-outer ul li a:hover,.lp-qoute-butn a:first-child,.lp-new-social-widget li i{
-        background-color:#41A6DF ;
+        background-color:#1BCA8F ;
         }
         .lp-qoute-butn a{
-        border-color:#41A6DF ;
+        border-color:#1BCA8F ;
         }
         .lp-detail-services-box ul li a:hover,.lp-left-filter .search-filters > ul > li > a:hover,.list_view .lp-grid3-category-outer span.cat-icon
         ,.lp-listing-menuu-slider .slick-arrow:hover
         {
-        background-color:#41A6DF !important;
+        background-color:#1BCA8F !important;
         }
         .footer-style1 .footer-upper-bar,
         .footer-style2,
@@ -556,7 +557,7 @@
         .footer-style8,
         .footer-style10,
         .footer-style11{
-        background-color: #363F48;
+        background-color: #EEEE22;
         }
         .footer-style1 .footer-bottom-bar,
         .footer-style3,
@@ -576,9 +577,11 @@
         .padding-top-60 .widget a,
         .padding-top-60 .widget span,
         .padding-top-60 .widget p{
-                }
+                    color: #000000 !important;
+            border-color: #000000                    }
         .footer-about-company li:before{
-                }
+                    background-color: #FFFFFF !important;
+                    }
         footer.style3 .container,
         footer.style3 .copyrights,
         footer.style3 .footer-menu ul li a,
@@ -595,46 +598,48 @@
         .footer4-bottom-area .footer-menu li a,
         .footer4-bottom-area .copyrights,
         .footer5-bottom-area .copyrights{
-                }
+                    color: #FFFFFF !important;
+            border-color: #FFFFFF;
+                    }
                     .header-front-page-wrap .lp-header-full-width .lp-menu-bar{
-            background-color: transparent;
+            background-color: #EEEE22;
             }
             .header-right-panel .lp-menu > ul li a,
             .lp-menu > ul li a,
             .lp-menu ul li.page_item_has_children::after,
             .lp-menu ul li.menu-item-has-children::after{
-            color: #FFFFFF !important;
+            color: #020202 !important;
             }
             .header-inner-page-wrap .lp-menu-bar-color{
-            background-color: #42A7DF            }
+            background-color: #EEEE22            }
             .header-inner-page-wrap .header-filter .input-group.width-49-percent.margin-right-15.hide-where,
             .header-inner-page-wrap .header-filter .input-group.width-49-percent,
             .header-inner-page-wrap .header-filter .input-group.width-49-percent.margin-right-15 {
-            border:1px solid #FFFFFF;
+            border:1px solid #020202;
             }
             .header-inner-page-wrap .lp-header-bg-black .navbar-toggle,
             .header-inner-page-wrap .lp-header-bg-black.header-fixed .navbar-toggle{
-            color: #FFFFFF;
-            border-color: #FFFFFF;
+            color: #020202;
+            border-color: #020202;
             }
                         .lp-topbar {
             background-color: #363F48 !important;
             }
                             .listing-page{
-            background-image:url(https://classic.listingprowp.com/wp-content/uploads/2017/01/header-banner.jpg);
+            background-image:url(http://studio.cridio.com/listingpro/wp-content/themes/listingpro/assets/images/header-banner.jpg);
             }
                                 .header-container.lp-header-bg{
-                background-image:url(https://classic.listingprowp.com/wp-content/uploads/2017/01/home-banner.jpg);
+                background-image:url(https://www.africanyellowpagesusa.com/wp-content/uploads/2022/12/58589cbb-8e13-4c13-959f-8d9d051755ae.jpg);
                 background-repeat:no-repeat;
                 background-position:center top;
                 }
                     .call-to-action2 h1{
-        background-image:url(http://localhost/lpdev2/wp-content/themes/listingpro/assets/images/new/hb.png);
+        background-image:url(https://www.africanyellowpagesusa.com/wp-content/themes/listingpro/assets/images/new/hb.png);
         background-repeat:no-repeat;
         background-position:center center;
         }
         .listing-app-view .admin-top-section .user-details .user-portfolio,.listing-app-view .user-detail-wrap{
-        background-image:url(http://localhost/lpdev2/wp-content/themes/listingpro/assets/images/admin/adminbg.jpg);
+        background-image:url(https://www.africanyellowpagesusa.com/wp-content/themes/listingpro/assets/images/admin/adminbg.jpg);
         background-repeat:no-repeat;
         background-position:center center;
         }
@@ -642,61 +647,61 @@
         .listing-app-view .footer-app-menu ul li a:hover,.listing-app-view .small-scrren-app-view .sign-login-wrap a,
         .listing-app-view .small-scrren-app-view .add-listing-btn,
         .googledroppin,.googledroppin:hover{
-        color: #41A6DF;
+        color: #1BCA8F;
         }
         .city-girds2 .city-thumb2  .category-style3-title-outer,.single-tabber2 ul .active a:after,.waycheckoutModal .btn-default:hover,
         .list_view .lp-grid-box-bottom .lp-nearest-distance,.grid_view2 .lp-grid-box-bottom .lp-nearest-distance{
-        background: #41A6DF;
+        background: #1BCA8F;
         }
         .single-tabber2 ul li a:hover,.single-tabber2 ul .active a,#sidebar aside ul li a:hover,#sidebar .jw-recent-posts-widget ul li .jw-recent-content a:hover,
         .blog-read-more-style2 a,.blog-read-more a{
-        color: #41A6DF;
+        color: #1BCA8F;
         }
         .waycheckoutModal .btn-default:hover{
-        border-color:#41A6DF !important;
+        border-color:#1BCA8F !important;
         }
         .blog-detail-link,.listing-app-view .footer-app-menu ul li:hover{
-        color: #41A6DF !important;
-        border-color:#41A6DF !important;
+        color: #1BCA8F !important;
+        border-color:#1BCA8F !important;
         }
         .blog-detail-link:hover,.video-bottom-search-content,.listing-app-view.login-form-pop-tabs{
-        background-color: #41A6DF !important;
+        background-color: #1BCA8F !important;
         }
         #sidebar aside h2.widget-title:after{
-        background: #41A6DF;
+        background: #1BCA8F;
         }
         .app-view-header .lp-menu-bar,.slider-handle,.tooltip-inner{
-        background: #41A6DF;
+        background: #1BCA8F;
         }
         .review-secondary-btn,.blog-read-more a:hover,
         .lp-tooltip-outer .lp-tool-tip-content .sortbyrated-outer ul li .active{
-        background: #41A6DF !important;
-        border-color: #41A6DF !important;
+        background: #1BCA8F !important;
+        border-color: #1BCA8F !important;
         }
         .location-filters-wrapper #distance_range_div input[type=range]::-webkit-slider-thumb,#distance_range_div_btn a:hover,.location-filters-wrapper #distance_range_div input[type=range]::-moz-range-thumb,.location-filters-wrapper #distance_range_div input[type=range]::-ms-thumb{
-        background:#41A6DF !important;
+        background:#1BCA8F !important;
         }
         .tooltip.top .tooltip-arrow{
-        border-top-color: #41A6DF;
+        border-top-color: #1BCA8F;
         }
         input:checked + .slider{
-        background-color: #41A6DF;
+        background-color: #1BCA8F;
         }
         .listing-app-view .app-view-filters .close{
-        border-color: #41A6DF !important;
-        color: #41A6DF;
+        border-color: #1BCA8F !important;
+        color: #1BCA8F;
         }
         .listing-app-view .app-view-filters .close:hover{
-        background: #41A6DF;
+        background: #1BCA8F;
         }
         .listing-app-view .small-scrren-app-view .mm-listview a:hover,.listing-app-view .small-scrren-app-view .mm-listview a:focus,body .list_view a.lp-add-to-fav.remove-fav:hover span{
-        color: #41A6DF !important;
+        color: #1BCA8F !important;
         }
                     .lp-header-overlay,.page-header-overlay, .lp-home-banner-contianer-inner-video-outer{
             background-color: rgba(0, 0, 0, 0.6);
             }
                             .lp-home-banner-contianer {
-            height: 610px;
+            height: 500px;
             }
                     .lp-home-banner-contianer-1 {
             height: 370px;
@@ -734,10 +739,10 @@
         .listing-second-view .features.list-style-none > li a:hover > i, .listing-second-view .features li > a:hover span i,
         .lp-join-now ul.lp-user-menu > li:hover > a, .listing-second-view .claim-area a.phone-number.md-trigger.claimformtrigger2:hover,
         .listing-view-layout > ul li a.active, .listing-view-layout > ul li a:hover, .listing-style4 #lp-find-near-me .near-me-btn.active{
-        color: #41A6DF;
+        color: #1BCA8F;
         }
         .dashboard-tabs ul li ul li.active a,.post-meta-right-box .post-stat li a:hover span {
-        color: #41A6DF !important;
+        color: #1BCA8F !important;
         }
         .ui-tooltip, .md-closer, .post-submit .ui-tabs .ui-tabs-nav li a, #success span p, .lp-list-view-paypal,
         .lp-listing-form input[type=radio]:checked + label::before, .lp-listing-form input[type=submit], .lp-invoice-table tr td a,
@@ -764,14 +769,14 @@
         .menu ul.children li > a::before, .menu ul.sub-menu li > a::before, .lp-user-menu li > a::before,
         .currency-signs > ul > li > a.active, .search-filters > ul > li > a.active,div#lp-find-near-me ul li a.active,
         .select2-container--default .select2-results__option--highlighted[aria-selected], .bookingjs-form .bookingjs-form-button:hover, a.googleAddressbtn:hover, a.googleAddressbtn.active, .lp-recurring-button-wrap input[type=checkbox]:checked + label::before {
-        background-color: #41A6DF;
+        background-color: #1BCA8F;
         }
         a.lp-change-plan-btn:hover {
-        background-color: #41A6DF !important;
-        border-color: #41A6DF !important;
+        background-color: #1BCA8F !important;
+        border-color: #1BCA8F !important;
         }
         .lp-tabs .panel-heading li.active a, .ui-state-default.ui-state-highlight {
-        background-color: #41A6DF !important;
+        background-color: #1BCA8F !important;
         }
         .lp-grid-box-price .category-cion a, .ui-state-default.ui-state-highlight, .lp-header-full-width.lp-header-bg-grey .lp-add-listing-btn li a:hover,
         .lp-header-full-width.lp-header-bg-grey .lp-add-listing-btn li a, .lp-header-bg-grey .navbar-toggle, .lp-bg-grey .lp-interest-bar input[type="text"],
@@ -780,36 +785,36 @@
         .fc-widget-content .fc-content-skeleton .fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end,
         .lpmap-icon-contianer, .dashboard-content .lp-pay-options .lp-promotebtn,.currency-signs > ul > li > a.active,
         .listing-view-layout > ul li a.active, .listing-view-layout > ul li a:hover, .search-filters > ul > li > a.active, div#lp-find-near-me ul li a.active {
-        border-color: #41A6DF;
+        border-color: #1BCA8F;
         }
         .ui-autocomplete li:hover {
-        border-color: #41A6DF !important;
+        border-color: #1BCA8F !important;
         }
         a.googleAddressbtn.active::after,
         .ui-tooltip::after {
-        border-top-color: #41A6DF;
+        border-top-color: #1BCA8F;
         }
         .dashboard-content .lp-main-tabs .nav-tabs > li.active > a, [data-tooltip].simptip-position-left::before,
         .dashboard-content .lp-main-tabs .nav-tabs > li a:hover, .dashboard-tabs.lp-main-tabs.text-center  ul  li  a.active-dash-menu {
-        border-left-color: #41A6DF;
+        border-left-color: #1BCA8F;
         }
         .lpmap-icon-shape.cardHighlight::after, [data-tooltip].simptip-position-top::before {
-        border-top-color: #41A6DF !important;
+        border-top-color: #1BCA8F !important;
         }
         .dashboard-tabs.lp-main-tabs.text-center > ul > li.opened:hover > a,
         .dashboard-tabs.lp-main-tabs.text-center > ul > li:hover > a,
         .dashboard-tabs.lp-main-tabs.text-center ul li a.active-dash-menu {
-        border-left-color: #41A6DF !important;
+        border-left-color: #1BCA8F !important;
         }
         [data-tooltip].simptip-position-right::before, [data-tooltip].simptip-position-top.half-arrow::before,
         [data-tooltip].simptip-position-bottom.half-arrow::before {
-        border-right-color: #41A6DF !important;
+        border-right-color: #1BCA8F !important;
         }
         [data-tooltip].simptip-position-top::before {
-        border-top-color: #41A6DF !important;
+        border-top-color: #1BCA8F !important;
         }
         [data-tooltip].simptip-position-bottom::before {
-        border-bottom-color: #41A6DF !important;
+        border-bottom-color: #1BCA8F !important;
         }
         .lp-primary-btn, .lp-search-btn:hover, .dashboard-tabs, .nav-tabs > li > a:hover,
         .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .lp-submit-btn, .secondary-btn:hover,
@@ -888,65 +893,65 @@
         .lp-menu-step-two-btn button:hover,
         .lp-menu-save-btns button:hover,
         .lp-form-feild-btn:hover {
-        background-color: #41A6DF;
+        background-color: #1BCA8F;
         }
         .lp-menu-step-two-btn button:hover,
         .lp-menu-save-btns button:hover,
         .lp-form-feild-btn:hover {
-        background-color: #41A6DF;
+        background-color: #1BCA8F;
         }
         .lp-menu-step-two-btn button span,
         .lp-menu-step-two-btn button,
         .lp-step-icon i,
         .lp-choose-menu .lp-listing-selecter-drop a,
         .lp-menu-container-outer .ui-tabs .ui-tabs-nav .ui-tabs-active a,.lp-header-togglesa .listing-view-layout-v2 ul li .active .fa{
-        color: #41A6DF;
+        color: #1BCA8F;
         }
         .lp-menu-step-two-btn button,.lp-header-togglesa .listing-view-layout-v2 ul li .active .fa,.lp-header-togglesa .listing-view-layout-v2 ul li .fa:hover,.listing-page-sidebar .lp-listing-price-range .claim-area a.phone-number{
-        border: 1px solid #41A6DF;
+        border: 1px solid #1BCA8F;
         }
         .lp-form-feild-btn,
         .lp-location-picker-outer .active,.lp-listing-price-range #lp-report-listing a,#lp-find-near-me .near-me-btn:hover,.listing-simple .post-with-map-container-right #lp-find-near-me a.active:hover,.listing-with-map .post-with-map-container-right #lp-find-near-me a.active:hover{
-        border-color: #41A6DF;
+        border-color: #1BCA8F;
         }
         .lp-left-content-container a:hover,
         .lp-form-feild-btn,.lp-header-togglesa .listing-view-layout-v2 ul li .fa:hover,.lp-listing-review .lp-review-left .lp-review-name{
-        color: #41A6DF;
+        color: #1BCA8F;
         }
         .lp-review-reply-btn,.lp-dashboard-new .sidebar-nav>.sidebar-brand,.lp-public-reply-btn a:hover,
         .lp-public-reply-btn a:focus{
-        background-color: #41A6DF;
+        background-color: #1BCA8F;
         }
         .lp-add-new-btn,
         .lp-let-start-btn,
         .lp-location-picker-outer .active,.arrow-left,.arrow-right,.lp-listing-menu-items h6:after{
-        background: #41A6DF;
+        background: #1BCA8F;
         }
         .lp-listings.list-style .lp-listing .lp-listing-bottom .lp-listing-cat,
         .lp-listings.grid-style .lp-listing-location a:hover,.lp-listings.grid-style .lp-listing-location:hover .fa,.listing-page-sidebar .lp-listing-price-range .claim-area a.phone-number,.grid-style .lp-listing-cat,
         .listing-slider .lp-listing .lp-listing-bottom-inner .lp-listing-cats a:hover{
-        color: #41A6DF !important;
+        color: #1BCA8F !important;
         }
         .lp-sorting-filter-outer .active,.lp-sorting-filter-outer .active:hover,.lp-sorting-filter-outer li a:hover,.lp-listing-price-range #lp-report-listing a{
-        border-bottom:1px solid #41A6DF!important;
-        color: #41A6DF !important;
+        border-bottom:1px solid #1BCA8F!important;
+        color: #1BCA8F !important;
         }
         .lp-sorting-filter-outer .active .fa,.lp-header-search-filters .more-filters,.lp-sorting-filter-outer li:hover a,.lp-sorting-filter-outer li:hover a .fa,#lp-find-near-me .near-me-btn:hover{
-        color: #41A6DF !important;
+        color: #1BCA8F !important;
         }
         .lp-listing-price-range .claim-area a.phone-number:hover,
         .lp-listing-price-range #lp-report-listing a:hover{
-        border-color: #41A6DF;
-        background-color: #41A6DF;
+        border-color: #1BCA8F;
+        background-color: #1BCA8F;
         }
         .hidding-form-feilds .form-group input[type="text"]:focus,
         .hidding-form-feilds .form-group input[type="email"]:focus,
         .hidding-form-feilds .form-group textarea:focus,
         .hidding-form-feilds .form-group select:focus {
-        border-left: 3px solid #41A6DF;
+        border-left: 3px solid #1BCA8F;
         }
         .review-submit-btn:hover,.lp-listing-leadform-inner .form-horizontal input[type="submit"]:hover,.lp-header-search .price-filter ul li:hover,.lp-header-search .form-group .lp-search-bar-right:hover .lp-search-form-submit{
-        background-color:rgba(65,166,223,0.9);
+        background-color:rgba(27,202,143,0.9);
         }
                 .lp-header-full-width .lp-add-listing-btn ul li a:hover,
         .lp-header-middle .lp-header-add-btn a:hover{
@@ -955,8 +960,8 @@
         border-color: #fff;
         }
         .lp-header-search .price-filter ul li .active,.lp-header-search .price-filter ul li a:hover,.lp-header-search .price-filter ul li:last-child .active,.lp-header-search .price-filter ul li:last-child a:hover,.lp-header-search-filters .open-now-filter .active,.lp-header-search-filters .open-now-filter a:hover{
-        border-color: #41A6DF !important;
-        background-color: #41A6DF;
+        border-color: #1BCA8F !important;
+        background-color: #1BCA8F;
         }
         .lp-booking-section-time-pill-1,.lp-booking-section-time-pill-2{
         border-color: #363F48;
@@ -977,7 +982,7 @@
         border-collapse: collapse;
         }
                     .lp-menu-container .lp-menu > div > ul > li > a{
-                            font-family: Quicksand;
+                            font-family: Comfortaa;
                                                             }
                             body{
                             font-family: Quicksand;
@@ -985,19 +990,19 @@
                                         color:#7f7f7f;
                                     }
                             h1, h1 a, .lp-h1, .lp-h1 a {
-                            font-family: Quicksand;
+                            font-family: Comfortaa;
                                                                 color:#333;
                                     }
                             h2, h2 a, .lp-h2, .lp-h2 a {
-                            font-family: Quicksand;
+                            font-family: Comfortaa;
                                                                 color:#333;
                                     }
                             h3, h3 a, .lp-h3, .lp-h3 a {
-                            font-family: Quicksand;
+                            font-family: Comfortaa;
                                                                 color:#333;
                                     }
                             h4, .lp-h4, h4 a, .lp-h4 a {
-                            font-family: Quicksand;
+                            font-family: Comfortaa;
                                                                 color:#333;
                                     }
                             h5, .lp-h5, h5 a, .lp-h5 a {
@@ -1005,7 +1010,7 @@
                                                                 color:#333;
                                     }
                             h6, .lp-h6, h6 a, .lp-h6 a {
-                            font-family: Quicksand;
+                            font-family: Comfortaa;
                                         font-size:16px;
                                                     color:#333;
                                         line-height:27px;
